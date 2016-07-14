@@ -1,0 +1,91 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+html
+{
+    height: 100%;
+    width: 100%;
+    background: #ffffff;
+}
+
+body
+{
+    height: 80%;
+    width: 100%;
+}
+
+.header
+{
+}
+
+.horizontal-wrapper
+{
+    margin: auto;
+    height: 100%;
+    text-align: center;
+}
+
+.vertical-wrapper
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.vertical-align-helper
+{
+    width: 0;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.title
+{
+    font-family: "Proxima Nova","Helvetica Neue","Helvetica","Segoe UI","Nimbus Sans L","Liberation Sans","Open Sans",FreeSans,Arial,sans-serif;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+input
+{
+    padding: 0.3em 0.5em;
+}
+
+input.search
+{
+    border: 1px solid rgb(217, 217, 217);
+    background: #ffffff;
+    width: 566px;
+    height: 26px;
+}
+input.search:hover
+{
+    border-color: rgb(185, 185, 185);
+}
+input.search:focus
+{
+    /* border-color: rgb(77, 144, 254); */
+    border-color: rgb(117, 117, 117);
+}
+
+input.button
+{
+    margin-top: 20px;
+    background: rgb(242, 242, 242);
+    border: 1px solid rgb(242, 242, 242);
+    font-weight: bold;
+    color: rgb(117, 117, 117);
+    cursor: pointer;
+}
+input.button:hover
+{
+    border-color: rgb(185, 185, 185);
+    color: rgb(33, 33, 33);
+}
+
+.footer
+{
+}
